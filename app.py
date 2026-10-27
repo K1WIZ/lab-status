@@ -6,7 +6,7 @@ from html import escape
 from wsgiref.simple_server import make_server
 
 APP_VERSION = "0.1.0"
-DEFAULT_MESSAGE = "Hello from my home lab!"
+DEFAULT_MESSAGE = "Welcome to John's DevOps lab!"
 
 
 def application(environ, start_response):

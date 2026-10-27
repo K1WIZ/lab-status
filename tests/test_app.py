@@ -32,7 +32,7 @@ class AppTests(unittest.TestCase):
     def test_home_shows_default_message(self):
         response = request("/")
         self.assertEqual(response["status"], "200 OK")
-        self.assertIn(b"Hello from my home lab!", response["body"])
+        self.assertIn(b"Welcome to John&#x27;s DevOps lab!", response["body"])
 
     def test_message_can_be_configured(self):
         with patch.dict(os.environ, {"APP_MESSAGE": "John's lab"}):
