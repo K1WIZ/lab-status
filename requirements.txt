@@ -1,0 +1,1 @@
+# Lab 1 uses only Python's standard library. No pip installs are needed.
